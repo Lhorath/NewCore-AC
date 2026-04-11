@@ -1,5 +1,9 @@
 # How to ask for help
 
+**NewCore-AC** is a **fork** focused on **tool development** for AzerothCore. For general emulator support and bug reports that belong to the main project, use [official AzerothCore resources](https://github.com/azerothcore/azerothcore-wotlk) (issues, wiki, Discord). For questions specific to this fork or its tooling, prefer discussions or issues **in this repository**.
+
+---
+
 ### Need help?
 
 Do you need support with AzerothCore? No worries, we're happy to help you!

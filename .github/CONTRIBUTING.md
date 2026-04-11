@@ -1,5 +1,11 @@
 ## CONTRIBUTING
 
+### This repository (NewCore-AC)
+
+This is a **fork** used for **tool development** and related work around AzerothCore. Changes that improve the shared emulator for everyone should go to the **[upstream AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk)**. Use this fork for experiments, tooling, and integrations you are developing here.
+
+---
+
 AzerothCore can also serve as a learning resource for aspiring developers who want to understand how WoW servers work, how MMORPGs are structured, how game server emulators are created, or to improve their C++ and SQL knowledge.
 
 If you want to contribute to the project, you will find a lot of resources that will guide you in our [wiki](https://www.azerothcore.org/wiki/contribute).

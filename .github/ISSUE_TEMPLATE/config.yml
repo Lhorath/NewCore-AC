@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: About this fork (NewCore-AC)
+    url: https://github.com/Lhorath/NewCore-AC/blob/master/README.md
+    about: This repository is a fork for AzerothCore-related tool development; read the scope here before opening issues.
   - name: Website
     url: https://www.azerothcore.org
     about: On the AC website you can find a lot of things, such as existing modules.

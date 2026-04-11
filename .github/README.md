@@ -1,21 +1,29 @@
 # ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
 
+## About this copy of the repository
+
+**NewCore-AC** is a **fork** of AzerothCore, maintained for **development of tools** and related work for the AzerothCore ecosystem. For the purpose and scope of this fork, read the **[root README.md](../README.md)** first.
+
+Upstream bugs, features, and contributions for the core emulator belong in the **[official AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk)**.
+
+The sections below describe the **upstream AzerothCore** project (this tree remains compatible with that layout and workflow).
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![CodeFactor](https://www.codefactor.io/repository/github/azerothcore/azerothcore-wotlk/badge)](https://www.codefactor.io/repository/github/azerothcore/azerothcore-wotlk)
 [![StackOverflow](http://img.shields.io/badge/stackoverflow-azerothcore-blue.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/azerothcore?sort=newest "Ask / browse questions here")
 [![Discord](https://img.shields.io/discord/217589275766685707?logo=discord&logoColor=white)](https://discord.gg/gkt4y2x "Our community hub on Discord")
 [![Bounties on BountyHub](https://img.shields.io/badge/Bounties-on%20BountyHub-yellow)](https://www.bountyhub.dev/bounties?repo=azerothcore)
 
-## Build Status
+## Build Status (this fork)
 
-[![nopch-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml?query=branch%3Amaster)
-[![pch-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-pch.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-pch.yml?query=branch%3Amaster)
-[![core-modules-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core_modules_build.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core_modules_build.yml?query=branch%3Amaster)
-[![windows-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/windows_build.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/windows_build.yml?query=branch%3Amaster)
-[![macos-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/macos_build.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/macos_build.yml?query=branch%3Amaster)
-[![docker-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/docker_build.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/docker_build.yml?query=branch%3Amaster)
-[![tools-build](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/tools_build.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/tools_build.yml?query=branch%3Amaster)
-[![dashboard-ci](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/dashboard-ci.yml/badge.svg?branch=master)](https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/dashboard-ci.yml?query=branch%3Amaster)
+[![nopch-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/core-build-nopch.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/core-build-nopch.yml?query=branch%3Amaster)
+[![pch-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/core-build-pch.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/core-build-pch.yml?query=branch%3Amaster)
+[![core-modules-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/core_modules_build.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/core_modules_build.yml?query=branch%3Amaster)
+[![windows-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/windows_build.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/windows_build.yml?query=branch%3Amaster)
+[![macos-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/macos_build.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/macos_build.yml?query=branch%3Amaster)
+[![docker-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/docker_build.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/docker_build.yml?query=branch%3Amaster)
+[![tools-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/tools_build.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/tools_build.yml?query=branch%3Amaster)
+[![dashboard-ci](https://github.com/Lhorath/NewCore-AC/actions/workflows/dashboard-ci.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/dashboard-ci.yml?query=branch%3Amaster)
 
 ## Introduction
 

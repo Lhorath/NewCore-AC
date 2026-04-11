@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repository context
+
+**NewCore-AC** is a **fork** of [AzerothCore (azerothcore-wotlk)](https://github.com/azerothcore/azerothcore-wotlk). The maintainers use it for **development of tools** and supporting workflows for the AzerothCore ecosystem. Prefer contributing core emulator fixes upstream unless the task is explicitly scoped to this fork. The **[README.md](README.md)** at the repository root states this for humans and for GitHub.
+
 ## Project Overview
 
 AzerothCore is an open-source MMORPG server emulator for World of Warcraft patch 3.3.5a (Wrath of the Lich King). It's a C++ project built with CMake, using MySQL for data storage. Licensed under GNU GPL v2.

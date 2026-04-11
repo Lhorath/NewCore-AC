@@ -1,5 +1,7 @@
 # Security Policy
 
+This file reflects **upstream AzerothCore** policy. **NewCore-AC** is a development fork; report security issues according to the guidance below, and use the **[official upstream repository](https://github.com/azerothcore/azerothcore-wotlk)** for issues that affect the main project.
+
 ## Supported Versions
 
 We support the following versions of dependencies.
