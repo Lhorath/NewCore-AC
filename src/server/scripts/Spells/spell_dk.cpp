@@ -2531,7 +2531,7 @@ class spell_dk_mark_of_blood : public AuraScript
     void HandleProc(AuraEffect const* aurEff, ProcEventInfo& eventInfo)
     {
         PreventDefaultAction();
-        // Heal the target that the marked enemy attacked (from TrinityCore)
+        // Heal the target that the marked enemy attacked.
         eventInfo.GetActor()->CastSpell(eventInfo.GetActionTarget(), SPELL_DK_MARK_OF_BLOOD_HEAL, true, nullptr, aurEff);
     }
 

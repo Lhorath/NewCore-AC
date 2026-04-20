@@ -31,7 +31,7 @@
 
 using namespace testing;
 
-// Use existing enum from Unit.h: SPELL_SWORD_SPECIALIZATIONIALIZATION (16459), SPELL_HACK_AND_SLASH (66923)
+// Use existing enum from Unit.h: SPELL_SWORD_SPECIALIZATION (16459), SPELL_HACK_AND_SLASH (66923)
 constexpr uint32 SPELL_RECKONING       = 32746; // Reckoning (Paladin)
 constexpr uint32 SPELL_HAND_OF_JUSTICE = 15601; // Hand of Justice extra attack
 

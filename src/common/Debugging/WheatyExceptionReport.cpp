@@ -617,7 +617,7 @@ void WheatyExceptionReport::GenerateExceptionReport(
             Log(_T("Assertion message: %s\r\n"), pExceptionRecord->ExceptionInformation[0]);
         }
 
-        // Now print information about where the fault occured
+        // Now print information about where the fault occurred
         TCHAR szFaultingModule[MAX_PATH];
         DWORD section;
         DWORD_PTR offset;

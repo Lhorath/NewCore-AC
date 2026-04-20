@@ -130,7 +130,7 @@ struct boss_netherspite : public BossAI
             {
                 // the one who's been cast upon before
                 Unit* current = ObjectAccessor::GetUnit(*portal, BeamTarget[j]);
-                // temporary store for the best suitable beam reciever
+                // temporary store for the best suitable beam receiver
                 Unit* target = me;
 
                 if (Map* map = me->GetMap())

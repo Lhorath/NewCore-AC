@@ -45,7 +45,7 @@ bool DBCFile::open()
     {
         f.close();
         data = nullptr;
-        printf("Critical Error: An error occured while trying to read the DBCFile %s.", filename.c_str());
+        printf("Critical Error: An error occurred while trying to read the DBCFile %s.", filename.c_str());
         return false;
     }
 

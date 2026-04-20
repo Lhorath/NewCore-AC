@@ -85,7 +85,7 @@ public:
     * @param isInstance provided by the relaying functions, so we don't have
     * to write that much code :)
     *
-    * @return true if everything was correct, false if an error occured.
+    * @return true if everything was correct, false if an error occurred.
     *
     * Example Usage:
     * @code
@@ -237,7 +237,7 @@ public:
     * @param isInstance provided by the relaying functions, so we don't have
     * to write that much code :)
     *
-    * @return true if everything was correct, false if an error occured.
+    * @return true if everything was correct, false if an error occurred.
     *
     * Example Usage:
     * @code
@@ -312,7 +312,7 @@ public:
     * Any Player with a Deserter Debuff of this time or less will get their Debuff removed. Use -1 for any.
     * Default: 15m for BG, 30m for Instance.
     *
-    * @return true if everything was correct, false if an error occured.
+    * @return true if everything was correct, false if an error occurred.
     *
     * Example Usage:
     * @code

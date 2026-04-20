@@ -544,8 +544,8 @@ private:
 
 /*######
 ## npc_the_etymidian
-## TODO: A red crystal as a gift for the great one should be spawned during the event.
 ######*/
+// @todo Spawn red crystal (gift for the great one) during this event.
 struct npc_the_etymidian : public ScriptedAI
 {
     npc_the_etymidian(Creature* creature) : ScriptedAI(creature) {}

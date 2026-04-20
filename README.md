@@ -1,58 +1,52 @@
-# NewCore-AC
+# DackCore
 
-[![nopch-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/core-build-nopch.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/core-build-nopch.yml?query=branch%3Amaster)
-[![tools-build](https://github.com/Lhorath/NewCore-AC/actions/workflows/tools_build.yml/badge.svg?branch=master)](https://github.com/Lhorath/NewCore-AC/actions/workflows/tools_build.yml?query=branch%3Amaster)
+**DackCore** is an independent continuation of this codebase, maintained separately from upstream. It is a **World of Warcraft 3.3.5a (Wrath of the Lich King)** server emulator: a **C++** project built with **CMake**, using **MySQL** for auth, characters, and world data.
 
-## Fork notice
+## Lineage and attribution
 
-This repository is a **fork** of [AzerothCore (azerothcore-wotlk)](https://github.com/azerothcore/azerothcore-wotlk). It is **not** the official AzerothCore project.
+This project **did not start from scratch**. It inherits a long chain of open-source work:
 
-**Purpose here:** development and experimentation around **tools** that support the AzerothCore ecosystem (extractors, importers, build/support utilities, and related workflows), while staying aligned with an AzerothCore-compatible core.
+1. **TrinityCore** — a major stage of the MaNGOS-family emulator line (see [AUTHORS](AUTHORS) for the full timeline: MaNGOS, ScriptDev2, TrinityCore, SunwellCore, AzerothCore, and links to historical repositories).
+2. **AzerothCore** — ongoing development of the `azerothcore-wotlk` tree and community ([AzerothCore](https://www.azerothcore.org/), [GitHub](https://github.com/azerothcore/azerothcore-wotlk)).
+3. **DackCore** — **this repository**, branched and maintained under the DackCore name.
 
-For the production emulator, community support, and contribution guidelines for the upstream project, use the [official AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk) and [wiki](https://www.azerothcore.org/wiki/).
+**Branch divergence:** development under the **DackCore** name and maintainership **diverged from the prior fork line on 20 April 2026**. Changes after that date are **DackCore** decisions unless explicitly merged from upstream; prior history remains that of the upstream projects and their contributors.
 
-## What this codebase is
+Authorship and history are recorded in **git commit history** and summarized in **[AUTHORS](AUTHORS)**. Third-party libraries under `deps/` retain their own licenses and notices in their respective trees.
 
-AzerothCore is an open-source **World of Warcraft 3.3.5a (Wrath of the Lich King)** server emulator: a large **C++** codebase built with **CMake**, with **MySQL** databases for auth, characters, and world data. It is licensed under **GNU GPL v2**.
+## Upstream relationship
 
-At runtime the project centers on two main programs:
+If you keep an **`upstream`** remote, it should typically point at the AzerothCore tree you intend to track (for example `https://github.com/azerothcore/azerothcore-wotlk.git`). Fixes that belong in the shared ecosystem are still best contributed **upstream** when appropriate; DackCore-specific behavior stays here.
+
+Build and layout notes for developers and tooling are in [CLAUDE.md](CLAUDE.md). Extra upstream-oriented material may live under [.github/README.md](.github/README.md).
+
+## What this codebase contains
 
 | Component | Role |
 |-----------|------|
-| **authserver** | Login and realm selection (typically port 3724). |
-| **worldserver** | Game world, packets, spells, instances, and scripts (typically port 8085). |
-
-Major source areas:
+| **authserver** | Login and realm selection (often port 3724). |
+| **worldserver** | Game world, packets, spells, instances, and scripts (often port 8085). |
 
 | Path | Role |
 |------|------|
 | `src/common/` | Shared libraries (networking, crypto, logging, utilities). |
-| `src/server/game/` | Core gameplay systems (entities, maps, spells, handlers, AI). |
-| `src/server/scripts/` | Data-driven content scripts (bosses, quests, spells, instances). |
-| `src/server/database/` | DB layer and schema updates. |
-| `modules/` | Optional **modules** (static or dynamic) extending the worldserver without forking the whole core. |
-| `src/tools/` | C++ **tools** built with `-DTOOLS_BUILD=...` (see below). |
-| `apps/` | Supporting applications (Docker assets, installer pieces, config merge helpers, test framework, etc.). |
-| `data/sql/` | SQL base dumps and update workflow for the three databases (`acore_auth`, `acore_characters`, `acore_world`). |
+| `src/server/game/` | Core gameplay (entities, maps, spells, handlers, AI). |
+| `src/server/scripts/` | Content scripts (bosses, quests, spells, instances). |
+| `src/server/database/` | Database layer and schema updates. |
+| `modules/` | Optional modules extending the worldserver. |
+| `src/tools/` | Extractors and generators (see CMake `TOOLS_BUILD`). |
+| `apps/` | Supporting apps (Docker, config helpers, tests, etc.). |
+| `data/sql/` | SQL base dumps and updates for the three databases. |
 
-## Tools in this tree
+### Tools (CMake `TOOLS_BUILD`)
 
-CMake option **`TOOLS_BUILD`** controls C++ tools (default is often `none` in minimal setups). When enabled, it can build artifacts such as:
+When enabled, typical artifacts include **map_extractor**, **vmap4_extractor** / **vmap4_assembler**, **mmaps_generator**, and **dbimport** under `src/tools/`. See [CLAUDE.md](CLAUDE.md) for configure options.
 
-- **map_extractor** — client data to server map files  
-- **vmap4_extractor** / **vmap4_assembler** — visual geometry for line-of-sight  
-- **mmaps_generator** — navigation meshes (Recast/Detour)  
-- **dbimport** — database import helper  
+### CI badges
 
-These live under `src/tools/`. Additional tooling and automation live under `apps/` (for example Docker and config-merger). CI includes a **tools** workflow (see badges above).
-
-## Working with this fork
-
-- **Remote setup:** keep an `upstream` remote pointing at `https://github.com/azerothcore/azerothcore-wotlk.git` to pull official changes.  
-- **Contributions:** fixes and features that belong in the main emulator should be proposed **upstream**. Use this fork for tool-related work, experiments, and integration that you intend to keep or iterate on separately.
-
-Build and architecture notes for agents and developers are in [CLAUDE.md](CLAUDE.md). Extended upstream-oriented readme content (badges, links, philosophy) is in [.github/README.md](.github/README.md).
+After you publish **DackCore** on GitHub, add workflow status badges using **your** `owner/repository` URL so links stay valid.
 
 ## License and trademarks
 
-Source code follows the same **GNU GPL v2** terms as AzerothCore. World of Warcraft and Blizzard Entertainment are trademarks of Blizzard Entertainment, Inc. This project is not affiliated with or endorsed by Blizzard Entertainment.
+- **Source code** in this tree is under the same **GNU GPL v2** terms as the AzerothCore / TrinityCore lineage unless a given file or directory states otherwise (for example bundled dependencies under `deps/`).
+- **World of Warcraft** and **Blizzard Entertainment** are trademarks of Blizzard Entertainment, Inc. This project is **not** affiliated with or endorsed by Blizzard Entertainment.

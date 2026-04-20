@@ -927,7 +927,7 @@ class go_tablet_of_the_seven : public GameObjectScript
 public:
     go_tablet_of_the_seven() : GameObjectScript("go_tablet_of_the_seven") { }
 
-    //TODO: use gossip option ("Transcript the Tablet") instead, if Trinity adds support.
+    // @todo Prefer gossip option "Transcript the Tablet" when API allows.
     bool OnGossipHello(Player* player, GameObject* go) override
     {
         if (go->GetGoType() != GAMEOBJECT_TYPE_QUESTGIVER)

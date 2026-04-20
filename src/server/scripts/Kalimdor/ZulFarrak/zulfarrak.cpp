@@ -84,7 +84,8 @@ public:
         uint32 postGossipStep;
         uint32 Text_Timer;
         uint32 ShieldBash_Timer;
-        uint32 Revenge_Timer; //this is wrong, spell should never be used unless me->GetVictim() dodge, parry or block attack. Trinity support required.
+        // Revenge should only proc on dodge/parry/block; needs core spell hook.
+        uint32 Revenge_Timer;
         uint32 Porthome_Timer;
         ObjectGuid PlayerGUID;
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository context
 
-**NewCore-AC** is a **fork** of [AzerothCore (azerothcore-wotlk)](https://github.com/azerothcore/azerothcore-wotlk). The maintainers use it for **development of tools** and supporting workflows for the AzerothCore ecosystem. Prefer contributing core emulator fixes upstream unless the task is explicitly scoped to this fork. The **[README.md](README.md)** at the repository root states this for humans and for GitHub.
+**DackCore** is a project derived from the **TrinityCore → AzerothCore** lineage (see **[README.md](README.md)** and **[AUTHORS](AUTHORS)**). It is maintained separately from upstream; prefer contributing generic emulator fixes upstream unless work is explicitly scoped to DackCore.
 
 ## Project Overview
 

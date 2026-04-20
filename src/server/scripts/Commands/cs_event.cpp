@@ -102,11 +102,11 @@ public:
         time_t nextTime = GameTime::GetGameTime().count() + delay;
         std::string nextStr = nextTime >= eventData.Start && nextTime < eventData.End ? Acore::Time::TimeToTimestampStr(Seconds(nextTime)) : "-";
 
-        std::string occurenceStr = secsToTimeString(eventData.Occurence * MINUTE, true);
+        std::string occurrenceStr = secsToTimeString(eventData.Occurence * MINUTE, true);
         std::string lengthStr = secsToTimeString(eventData.Length * MINUTE, true);
 
         handler->PSendSysMessage(LANG_EVENT_INFO, uint16(eventId), eventData.Description, activeStr,
-            startTimeStr, endTimeStr, occurenceStr, lengthStr,
+            startTimeStr, endTimeStr, occurrenceStr, lengthStr,
             nextStr);
 
         return true;
