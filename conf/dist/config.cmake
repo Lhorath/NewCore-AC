@@ -1,6 +1,7 @@
 #
 # Copyright (C) 2016+ AzerothCore <www.azerothcore.org>
 # Copyright (C) 2021+ WarheadCore <https://github.com/WarheadCore>
+# DackCore: fork maintained separately; tree synced from AzerothCore master as of 2026-04-20.
 #
 # This file is free software; as a special exception the author gives
 # unlimited permission to copy and/or distribute it, with or without

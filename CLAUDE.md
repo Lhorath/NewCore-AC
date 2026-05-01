@@ -4,11 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository context
 
-**DackCore** is a project derived from the **TrinityCore → AzerothCore** lineage (see **[README.md](README.md)** and **[AUTHORS](AUTHORS)**). It is maintained separately from upstream; prefer contributing generic emulator fixes upstream unless work is explicitly scoped to DackCore.
+**DackCore** is this repository’s name for the emulator. It is derived from the **TrinityCore → AzerothCore** lineage and was last aligned with **AzerothCore `master` as of 2026-04-20** (see **[README.md](README.md)** and **[AUTHORS](AUTHORS)**). Prefer contributing generic fixes to **upstream AzerothCore** unless work is explicitly scoped to DackCore.
 
 ## Project Overview
 
-AzerothCore is an open-source MMORPG server emulator for World of Warcraft patch 3.3.5a (Wrath of the Lich King). It's a C++ project built with CMake, using MySQL for data storage. Licensed under GNU GPL v2.
+**DackCore** is an MMORPG server emulator for World of Warcraft patch 3.3.5a (Wrath of the Lich King): C++ with CMake, MySQL for auth/characters/world data, GNU GPL v2 (same license family as upstream).
 
 ## Build Commands
 

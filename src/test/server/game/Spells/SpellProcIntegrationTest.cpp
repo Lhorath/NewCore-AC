@@ -1,5 +1,5 @@
 /*
- * This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
+ * This file is part of DackCore (based on AzerothCore). See AUTHORS file for Copyright information
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -319,7 +319,7 @@ TEST_F(SpellProcIntegrationTest, AbsorbProc)
 }
 
 // Note: PROC_HIT_ABSORB covers both partial and full absorb
-// There is no separate PROC_HIT_FULL_ABSORB flag in AzerothCore
+// There is no separate PROC_HIT_FULL_ABSORB flag in this codebase
 
 // =============================================================================
 // Spell Family Filtering Tests

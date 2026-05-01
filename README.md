@@ -2,17 +2,25 @@
 
 **DackCore** is an independent continuation of this codebase, maintained separately from upstream. It is a **World of Warcraft 3.3.5a (Wrath of the Lich King)** server emulator: a **C++** project built with **CMake**, using **MySQL** for auth, characters, and world data.
 
+## Upstream snapshot (AzerothCore)
+
+**DackCore** is **based on the AzerothCore `azerothcore-wotlk` tree** (`master` as of **20 April 2026**). That is the reference snapshot for this fork’s lineage; merge newer upstream commits whenever you want to track current AzerothCore development.
+
 ## Lineage and attribution
 
 This project **did not start from scratch**. It inherits a long chain of open-source work:
 
 1. **TrinityCore** — a major stage of the MaNGOS-family emulator line (see [AUTHORS](AUTHORS) for the full timeline: MaNGOS, ScriptDev2, TrinityCore, SunwellCore, AzerothCore, and links to historical repositories).
-2. **AzerothCore** — ongoing development of the `azerothcore-wotlk` tree and community ([AzerothCore](https://www.azerothcore.org/), [GitHub](https://github.com/azerothcore/azerothcore-wotlk)).
-3. **DackCore** — **this repository**, branched and maintained under the DackCore name.
+2. **AzerothCore** — ongoing upstream project for the `azerothcore-wotlk` codebase and community ([website](https://www.azerothcore.org/), [GitHub](https://github.com/azerothcore/azerothcore-wotlk)).
+3. **DackCore** — **this repository**, maintained under the DackCore name.
 
-**Branch divergence:** development under the **DackCore** name and maintainership **diverged from the prior fork line on 20 April 2026**. Changes after that date are **DackCore** decisions unless explicitly merged from upstream; prior history remains that of the upstream projects and their contributors.
+**Branch divergence:** development under the **DackCore** name and maintainership **diverged on 20 April 2026**. Changes after that date are **DackCore** decisions unless explicitly merged from upstream; prior history remains that of the upstream projects and their contributors.
 
 Authorship and history are recorded in **git commit history** and summarized in **[AUTHORS](AUTHORS)**. Third-party libraries under `deps/` retain their own licenses and notices in their respective trees.
+
+### Compatibility note (addon channel)
+
+The in-game addon-command wire format still uses the literal prefix `AzerothCore\t` in server code (`Chat.cpp`). That identifier is part of the **protocol** expected by existing addons; it is **not** the distribution name. The running server identifies as **DackCore** in banners, Windows service metadata, and build strings.
 
 ## Upstream relationship
 
@@ -48,5 +56,5 @@ After you publish **DackCore** on GitHub, add workflow status badges using **you
 
 ## License and trademarks
 
-- **Source code** in this tree is under the same **GNU GPL v2** terms as the AzerothCore / TrinityCore lineage unless a given file or directory states otherwise (for example bundled dependencies under `deps/`).
+- **Source code** in this tree is under the same **GNU GPL v2** terms as the upstream **TrinityCore / AzerothCore** lineage unless a given file or directory states otherwise (for example bundled dependencies under `deps/`).
 - **World of Warcraft** and **Blizzard Entertainment** are trademarks of Blizzard Entertainment, Inc. This project is **not** affiliated with or endorsed by Blizzard Entertainment.

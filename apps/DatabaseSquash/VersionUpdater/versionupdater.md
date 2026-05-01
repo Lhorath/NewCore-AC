@@ -1,4 +1,4 @@
-# The AzerothCore Version Updater for Database Squashes
+# DackCore Version Updater for Database Squashes
 
 > [!CAUTION]
 > These steps are only for project maintainers who intend to update base files.

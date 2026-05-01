@@ -1,9 +1,9 @@
-# AzerothCore Config Updater/Merger - Python Version
+# DackCore Config Updater/Merger - Python Version
 
-A command-line tool to update your AzerothCore configuration files with new options from distribution files.
+A command-line tool to update your **DackCore** configuration files with new options from distribution files (based on AzerothCore layout).
 
 > [!NOTE]  
-> Based on and modified from [@BoiseComputer](https://github.com/BoiseComputer) (Brian Aldridge)'s [update_module_confs](https://github.com/Brian-Aldridge/update_module_confs) project to meet AzerothCore's needs
+> Based on and modified from [@BoiseComputer](https://github.com/BoiseComputer) (Brian Aldridge)'s [update_module_confs](https://github.com/Brian-Aldridge/update_module_confs) project to meet AzerothCore-era config layout needs
 
 ## Overview
 
@@ -37,7 +37,7 @@ There are two ways to use this. You can either copy this file directly to your `
 
 3. **Choose from the menu**:
    ```
-   AzerothCore Config Updater/Merger (v. 1)
+   DackCore Config Updater/Merger (v. 1)
    --------------------------
    1 - Update Auth Config
    2 - Update World Config  
@@ -140,7 +140,7 @@ configs/
 
 ## License
 
-This file is part of the AzerothCore Project. This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This file is part of DackCore (based on AzerothCore). This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 

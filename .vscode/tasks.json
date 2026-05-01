@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "AzerothCore: Dashboard",
+        "label": "DackCore: Dashboard",
         "type": "shell",
         "command": "./acore.sh",
         "group": "none",
@@ -13,7 +13,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Download client-data",
+        "label": "DackCore: Download client-data",
         "type": "shell",
         "command": "./acore.sh client-data",
         "group": "none",
@@ -24,7 +24,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Clean build",
+        "label": "DackCore: Clean build",
         "type": "shell",
         "command": "./acore.sh compiler clean",
         "group": "build",
@@ -35,7 +35,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Build",
+        "label": "DackCore: Build",
         "type": "shell",
         "command": "./acore.sh compiler build",
         "group": {
@@ -49,7 +49,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Check codestyle cpp",
+        "label": "DackCore: Check codestyle cpp",
         "type": "shell",
         "command": "python apps/codestyle/codestyle-cpp.py",
         "group": "none",
@@ -60,7 +60,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Check codestyle sql",
+        "label": "DackCore: Check codestyle sql",
         "type": "shell",
         "command": "python apps/codestyle/codestyle-sql.py",
         "group": "none",
@@ -71,7 +71,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Run authserver (restarter)",
+        "label": "DackCore: Run authserver (restarter)",
         "type": "shell",
         "command": "./acore.sh run-authserver",
         "group": "none",
@@ -82,7 +82,7 @@
         "problemMatcher": []
       },
       {
-        "label": "AzerothCore: Run worldserver (restarter)",
+        "label": "DackCore: Run worldserver (restarter)",
         "type": "shell",
         "command": "./acore.sh run-worldserver",
         "group": "none",

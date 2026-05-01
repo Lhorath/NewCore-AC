@@ -1,6 +1,6 @@
-# AzerothCore Config Merger
+# DackCore Config Merger
 
-This directory contains configuration file merger tools to help update your AzerothCore server and module configurations with new options from distribution files.
+This directory contains configuration file merger tools to help update your **DackCore** server and module configurations with new options from distribution files (based on AzerothCore tooling).
 
 **Available Options:** PHP and Python versions (**Python recommended for new users**)
 
@@ -59,7 +59,7 @@ python config_merger.py
 
 ## Installation
 
-When building AzerothCore with the `TOOL_CONFIG_MERGER` CMake option enabled, **only the Python version** will be automatically copied to your configs directory during the build process. The PHP version must be manually deployed to a web server.
+When building DackCore with the `TOOL_CONFIG_MERGER` CMake option enabled, **only the Python version** will be automatically copied to your configs directory during the build process. The PHP version must be manually deployed to a web server.
 
 ## Support
 

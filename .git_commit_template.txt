@@ -13,7 +13,7 @@
 
 
 ## Provide links to any issue, commit, pull request or other resource
-## Example 1: Closes AzerothCore issue #23
+## Example 1: Closes DackCore issue #23
 ## Example 2: Ported from other project's commit (link)
 ## Example 3: References taken from wowpedia / wowhead / wowwiki / https://wowgaming.altervista.org/aowow/
 

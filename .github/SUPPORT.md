@@ -1,14 +1,14 @@
 # How to ask for help
 
-**NewCore-AC** is a **fork** focused on **tool development** for AzerothCore. For general emulator support and bug reports that belong to the main project, use [official AzerothCore resources](https://github.com/azerothcore/azerothcore-wotlk) (issues, wiki, Discord). For questions specific to this fork or its tooling, prefer discussions or issues **in this repository**.
+**DackCore** is maintained as a separate fork **based on AzerothCore** (`master` as of **2026-04-20**). For general emulator support and bug reports that belong to the shared codebase, use [official AzerothCore resources](https://github.com/azerothcore/azerothcore-wotlk) (issues, wiki, Discord). For questions specific to **DackCore**, prefer discussions or issues **in this repository**.
 
 ---
 
 ### Need help?
 
-Do you need support with AzerothCore? No worries, we're happy to help you!
+Do you need support with DackCore or upstream AzerothCore? No worries, the community ecosystem can help.
 
-Whether you have troubles installing AzerothCore, or you want to ask how-to or generic help questions, **we will help you**.
+Whether you have troubles installing or running the emulator, or you want to ask how-to or generic help questions, **start with the wiki and Discord** linked below.
 
 We just want you to ask for support in the **proper way**. Please read this document before asking for any help.
 

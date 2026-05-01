@@ -1,4 +1,4 @@
-AzerothCore uses (parts of or in whole) the following opensource software:
+DackCore bundles (parts of or in whole) the following open-source software:
 
 argon2 (The password hash Argon2)
   https://github.com/P-H-C/phc-winner-argon2

@@ -1,5 +1,7 @@
 # List of AUTHORS who contributed over time to the AzerothCore project
 
+# DackCore fork: This repository is maintained as DackCore, based on the AzerothCore lineage (see README.md for snapshot date and scope). Everything below still describes the upstream AzerothCore project and its contributor history.
+
 ## Point of current development
 The project is currently hosted at https://www.azerothcore.org/ and developed under https://github.com/azerothcore
 

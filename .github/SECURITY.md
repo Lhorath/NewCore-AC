@@ -1,6 +1,6 @@
 # Security Policy
 
-This file reflects **upstream AzerothCore** policy. **NewCore-AC** is a development fork; report security issues according to the guidance below, and use the **[official upstream repository](https://github.com/azerothcore/azerothcore-wotlk)** for issues that affect the main project.
+This file reflects **upstream AzerothCore** policy. **DackCore** is a separate fork; report security issues according to the guidance below, and use the **[official upstream repository](https://github.com/azerothcore/azerothcore-wotlk)** for issues that affect the main project.
 
 ## Supported Versions
 
@@ -12,9 +12,9 @@ We support the following versions of dependencies.
 | :red_circle:         | **NOT** Supported |
 | :large_blue_diamond: |  **Recommended**  |
 
-### Versions of AzerothCore:
+### Versions (upstream AzerothCore reference):
 
-| AzerothCore Branch           |       Status       |     Recommended      |
+| Branch (upstream)            |       Status       |     Recommended      |
 | ---------------------------- | :----------------: | :------------------: |
 | **master**                   | :white_check_mark: | :large_blue_diamond: |
 | Any non-official fork        |    :red_circle:    |                      |
@@ -87,7 +87,7 @@ We support the following versions of dependencies.
 | 11 ≤ |    :red_circle:    |                      |
 
 > [!NOTE]
-> We do **NOT** support any repacks that may or may not have been made based on AzerothCore. This is because they are usually based on older versions and there is no way to know what is in the precompiled binaries. Instead, you should compile your binaries from the AzerothCore source. To get started, read the [Installation Guide](https://www.azerothcore.org/wiki/installation).
+> We do **NOT** support any repacks that may or may not have been made based on AzerothCore or DackCore. This is because they are usually based on older versions and there is no way to know what is in the precompiled binaries. Instead, compile your binaries from **this source tree**. To get started, read the [Installation Guide](https://www.azerothcore.org/wiki/installation).
 
 > [!CAUTION] 
 > [Why you should not use repacks to run your WoW server](https://www.mangosrumors.org/why-you-should-not-use-repacks-to-run-your-wow-server/)

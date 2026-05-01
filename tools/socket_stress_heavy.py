@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Socket Stress Test for AzerothCore
+Socket Stress Test for DackCore
 Tests authserver and worldserver connection handling under heavy load.
 
 Usage:

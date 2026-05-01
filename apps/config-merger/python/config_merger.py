@@ -1,7 +1,7 @@
 # Version 1
 # Based and modified from: https://github.com/Brian-Aldridge/update_module_confs 
 #
-# This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
+# This file is part of DackCore (based on AzerothCore). See AUTHORS file for Copyright information
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -188,7 +188,7 @@ def update_modules(config_dir, selected_only=False, skip_prompts=False):
         update_conf(dist_path, conf_path, skip_prompts)
 
 def show_main_menu():
-    print(f"\nAzerothCore Config Updater/Merger (v. {VERSION})")
+    print(f"\nDackCore Config Updater/Merger (v. {VERSION})")
     print("--------------------------")
     print("1 - Update Auth Config")
     print("2 - Update World Config")
@@ -199,7 +199,7 @@ def show_main_menu():
     return input("Select an option: ").strip()
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='AzerothCore Config Updater/Merger')
+    parser = argparse.ArgumentParser(description='DackCore Config Updater/Merger')
     parser.add_argument('config_dir', nargs='?', default='.', 
                       help='Path to configs directory (default: current directory)')
     parser.add_argument('target', nargs='?',
@@ -215,7 +215,7 @@ def main():
     
     # If no target specified, run interactive mode
     if args.target is None:
-        print(f"AzerothCore Config Updater/Merger (v. {VERSION})")
+        print(f"DackCore Config Updater/Merger (v. {VERSION})")
         print("==========================")
         config_dir = input("Enter the path to your configs folder (Default / Empty will use the folder where this script is located): ").strip()
         if not config_dir:
@@ -252,7 +252,7 @@ def main():
             print(f"Error: Directory '{config_dir}' does not exist.")
             sys.exit(1)
         
-        print(f"AzerothCore Config Updater/Merger (v. {VERSION}) - CLI Mode")
+        print(f"DackCore Config Updater/Merger (v. {VERSION}) - CLI Mode")
         print(f"Config directory: {os.path.abspath(config_dir)}")
         print(f"Target: {args.target}")
         if args.yes:

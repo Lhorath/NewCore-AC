@@ -51,9 +51,9 @@ not aligned to this Code of Conduct.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, which includes but is not limited to AzerothCore
-managed sites and community spaces, and also applies when an individual is officially representing the 
-community in public spaces.
+This Code of Conduct applies within all community spaces, which includes but is not limited to **DackCore**
+and upstream **AzerothCore** managed sites and community spaces, and also applies when an individual is
+officially representing the community in public spaces.
 
 Examples of representing our community include
 * Using an official e-mail address
@@ -64,8 +64,8 @@ Examples of representing our community include
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at the AzerothCore 
-[https://discord.gg/gkt4y2x][discord].
+reported to the community leaders responsible for enforcement (for this fork: your maintainers; for
+upstream: the **AzerothCore** Discord at [https://discord.gg/gkt4y2x][discord]).
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

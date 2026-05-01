@@ -1,6 +1,6 @@
 # GitHub Agents Configuration
 
-This directory contains configuration files for AI-powered code review and development agents used in the AzerothCore project.
+This directory contains configuration files for AI-powered code review and development agents used in the **DackCore** project (based on AzerothCore).
 
 ## Overview
 
@@ -10,7 +10,7 @@ Agent configuration files provide context-specific instructions to AI tools (lik
 
 ### PR Reviewer (`pr-reviewer.md`)
 
-The PR Reviewer agent is configured to review pull requests with deep understanding of AzerothCore's:
+The PR Reviewer agent is configured to review pull requests with deep understanding of DackCore / upstream AzerothCore patterns, including:
 - Architecture patterns (two-server model, scripting system, database structure)
 - Code style requirements (indentation, line length, formatting)
 - C++ coding conventions and naming standards

@@ -1,5 +1,5 @@
 /*
- * This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
+ * This file is part of DackCore (based on AzerothCore). See AUTHORS file for Copyright information
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -35,7 +35,7 @@ void Acore::Banner::Show(std::string_view applicationName, void(*log)(std::strin
     log("                                ██║     ██║   ██║██╔══██╗██╔══╝");
     log("                                ╚██████╗╚██████╔╝██║  ██║███████╗");
     log("                                 ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝\n");
-    log("     AzerothCore 3.3.5a  -  www.azerothcore.org\n");
+    log("     DackCore 3.3.5a  —  based on AzerothCore (www.azerothcore.org)\n");
 
     if (logExtraInfo)
     {

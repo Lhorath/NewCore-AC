@@ -1,5 +1,5 @@
 #
-# This file is part of the AzerothCore Project. See AUTHORS file for Copyright information
+# This file is part of DackCore (based on AzerothCore). See AUTHORS file for Copyright information
 #
 # This file is free software; as a special exception the author gives
 # unlimited permission to copy and/or distribute it, with or without
@@ -12,9 +12,9 @@
 
 # output generic information about the core and buildtype chosen
 message("")
-message("* AzerothCore revision            : ${rev_hash} ${rev_date} (${rev_branch} branch)")
+message("* DackCore revision               : ${rev_hash} ${rev_date} (${rev_branch} branch)")
 if( UNIX )
-  message("* AzerothCore buildtype           : ${CMAKE_BUILD_TYPE}")
+  message("* DackCore buildtype              : ${CMAKE_BUILD_TYPE}")
 endif()
 message("")
 

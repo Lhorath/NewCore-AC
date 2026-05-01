@@ -62,9 +62,9 @@ def get_changed_files() -> list:
 
 # Main function to parse all the files of the project
 def parsing_file(files: list) -> None:
-    print("Starting AzerothCore SQL Codestyle check...")
+    print("Starting DackCore SQL Codestyle check...")
     print(" ")
-    print("Please read the SQL Standards for AzerothCore:")
+    print("Please read the SQL Standards (upstream AzerothCore wiki):")
     print("https://www.azerothcore.org/wiki/sql-standards")
     print(" ")
 

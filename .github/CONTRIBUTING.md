@@ -1,12 +1,12 @@
 ## CONTRIBUTING
 
-### This repository (NewCore-AC)
+### This repository (DackCore)
 
-This is a **fork** used for **tool development** and related work around AzerothCore. Changes that improve the shared emulator for everyone should go to the **[upstream AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk)**. Use this fork for experiments, tooling, and integrations you are developing here.
+**DackCore** is this fork’s name for the emulator tree (**based on AzerothCore `master` as of 2026-04-20**). Changes that improve the shared emulator for everyone should go to the **[upstream AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk)** when appropriate. Use **this repository** for DackCore-specific work.
 
 ---
 
-AzerothCore can also serve as a learning resource for aspiring developers who want to understand how WoW servers work, how MMORPGs are structured, how game server emulators are created, or to improve their C++ and SQL knowledge.
+This codebase can also serve as a learning resource for aspiring developers who want to understand how WoW servers work, how MMORPGs are structured, how game server emulators are created, or to improve their C++ and SQL knowledge.
 
 If you want to contribute to the project, you will find a lot of resources that will guide you in our [wiki](https://www.azerothcore.org/wiki/contribute).
 

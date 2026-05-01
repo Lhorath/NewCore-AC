@@ -1,12 +1,12 @@
-# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
+# ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) DackCore
 
-## About this copy of the repository
+## About this repository
 
-**NewCore-AC** is a **fork** of AzerothCore, maintained for **development of tools** and related work for the AzerothCore ecosystem. For the purpose and scope of this fork, read the **[root README.md](../README.md)** first.
+**DackCore** is this emulator distribution’s name. It is **based on AzerothCore** (`master` as of **2026-04-20**; see **[root README.md](../README.md)** for lineage, GPL, and how to track upstream).
 
-Upstream bugs, features, and contributions for the core emulator belong in the **[official AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk)**.
+Bugs and features that belong in the shared ecosystem should still go to the **[official AzerothCore repository](https://github.com/azerothcore/azerothcore-wotlk)** when appropriate.
 
-The sections below describe the **upstream AzerothCore** project (this tree remains compatible with that layout and workflow).
+The sections below mostly describe **upstream AzerothCore** (community, wiki, philosophy); this tree stays layout-compatible with that project.
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![CodeFactor](https://www.codefactor.io/repository/github/azerothcore/azerothcore-wotlk/badge)](https://www.codefactor.io/repository/github/azerothcore/azerothcore-wotlk)
@@ -27,7 +27,7 @@ The sections below describe the **upstream AzerothCore** project (this tree rema
 
 ## Introduction
 
-AzerothCore is an open-source game server application and framework designed for hosting massively multiplayer online role-playing games (MMORPGs). It is based on the popular MMORPG World of Warcraft (WoW) and seeks to recreate the gameplay experience of the original game from patch 3.3.5a.
+**AzerothCore** (upstream) is an open-source game server application and framework designed for hosting massively multiplayer online role-playing games (MMORPGs). It is based on the popular MMORPG World of Warcraft (WoW) and seeks to recreate the gameplay experience of the original game from patch 3.3.5a.
 
 The original code is based on MaNGOS, TrinityCore, and SunwellCore and has since then had extensive development to improve stability, in-game mechanics, and modularity to the game. AC has also grown into a community-driven project with a significant number of contributors and developers. It is written in C++ and provides a solid foundation for creating private servers that mimic the mechanics and behavior of the official WoW servers.
 
@@ -47,11 +47,11 @@ Here are the main points we focus on:
   * It is easy to customize your experience using [modules](#modules).
 
 * Community driven
-  * AzerothCore has an active community of developers, contributors, and users who collaborate, share knowledge, and provide support through forums, Discord channels, and other communication platforms. 
+  * The upstream project has an active community of developers, contributors, and users who collaborate, share knowledge, and provide support through forums, Discord channels, and other communication platforms.
 
 ### Modules
 
-AzerothCore is designed to be highly modular, allowing developers to extend and customize the game to suit their preferences or create unique gameplay experiences. This flexibility enables the addition of custom features, content, and modifications.
+The codebase is designed to be highly modular, allowing developers to extend and customize the game to suit their preferences or create unique gameplay experiences. This flexibility enables the addition of custom features, content, and modifications.
 
 We have a lot of modules already made by the community, many of which can be found in the [Module Catalogue](https://www.azerothcore.org/catalogue.html#/).
 
@@ -61,7 +61,7 @@ Detailed installation instructions are available [here](http://www.azerothcore.o
 
 ## Contributing
 
-AzerothCore can also serve as a learning resource for aspiring developers who want to understand how WoW servers work, how MMORPGs are structured, how game server emulators are created, or to improve their C++ and SQL knowledge.
+This stack can also serve as a learning resource for aspiring developers who want to understand how WoW servers work, how MMORPGs are structured, how game server emulators are created, or to improve their C++ and SQL knowledge.
 
 If you want to contribute to the project, you will find a lot of resources that will guide you in our [wiki](https://www.azerothcore.org/wiki/contribute).
 
@@ -90,12 +90,12 @@ You can check the [authors](https://github.com/azerothcore/azerothcore-wotlk/blo
 
 ## License
 
-- The AzerothCore source code is released under the [GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+- The combined lineage (including upstream AzerothCore) is released under the [GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html); see repository headers and `deps/` for file-level terms.
 
-It's important to note that AzerothCore is not an official Blizzard Entertainment product, and it is not affiliated with or endorsed by World of Warcraft or Blizzard Entertainment. AzerothCore does not in any case sponsor nor support illegal public servers. If you use this project to run an illegal public server and not for testing and learning it is your own personal choice.
+**DackCore** is not an official Blizzard Entertainment product, and it is not affiliated with or endorsed by World of Warcraft or Blizzard Entertainment. This software does not sponsor nor support illegal public servers. If you use this project to run an illegal public server and not for testing and learning it is your own personal choice.
 
 ## Special thanks
 
-[JetBrains](https://www.jetbrains.com/?from=AzerothCore) is providing free [open-source licenses](https://www.jetbrains.com/community/opensource/) to the AzerothCore developers.
+[JetBrains](https://www.jetbrains.com/?from=AzerothCore) is providing free [open-source licenses](https://www.jetbrains.com/community/opensource/) to upstream **AzerothCore** developers (DackCore inherits the same toolchain ecosystem).
 
 [![JetBrains logo.](https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg)](https://jb.gg/OpenSourceSupport)

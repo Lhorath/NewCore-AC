@@ -1,6 +1,6 @@
-# AzerothCore Startup Scripts
+# DackCore Startup Scripts
 
-A comprehensive suite of scripts for managing AzerothCore server instances with advanced session management, automatic restart capabilities, and production-ready service management.
+A comprehensive suite of scripts for managing **DackCore** server instances with advanced session management, automatic restart capabilities, and production-ready service management.
 
 ## 📋 Table of Contents
 
@@ -15,7 +15,7 @@ A comprehensive suite of scripts for managing AzerothCore server instances with 
 
 ## 🎯 Overview
 
-The AzerothCore startup scripts provide multiple approaches to running server instances:
+These startup scripts provide multiple approaches to running server instances:
 
 1. **Development/Testing**: Simple execution for debugging and development
 2. **Production with Restarts**: Automatic restart on crashes with crash detection
@@ -26,14 +26,14 @@ All scripts are integrated into the `acore.sh` dashboard for easy access.
 
 ### 📦 Automatic Deployment
 
-**Important**: When you compile AzerothCore using the acore dashboard (`./acore.sh compiler build`), all startup scripts are automatically copied from `apps/startup-scripts/src/` to your `bin/` folder. This means:
+**Important**: When you compile DackCore using the acore dashboard (`./acore.sh compiler build`), all startup scripts are automatically copied from `apps/startup-scripts/src/` to your `bin/` folder. This means:
 
 - ✅ **Portable Deployment**: You can copy the entire `bin/` folder to different servers
 - ✅ **Self-Contained**: All restart and service management tools travel with your binaries  
 - ✅ **No Additional Setup**: Scripts work immediately after deployment
 - ✅ **Production Ready**: Deploy to production servers without needing the full source code
 
-This makes it easy to deploy your compiled binaries along with the management scripts to production environments where you may not have the full AzerothCore source code.
+This makes it easy to deploy your compiled binaries along with the management scripts to production environments where you may not have the full DackCore source tree.
 
 ## 🔧 Components
 
@@ -534,7 +534,7 @@ The startup scripts recognize several environment variables for configuration an
   
 - **`AC_DISABLE_INTERACTIVE`**: Controls interactive mode (0=enabled, 1=disabled)
   - Automatically set based on execution context
-  - Prevents AzerothCore from showing interactive prompts in service environments
+  - Prevents the server from showing interactive prompts in service environments
 
 #### Configuration Variables
 
@@ -581,7 +581,7 @@ tmux attach-session -t worldserver
 
 ## 🎮 Integration with acore.sh Dashboard
 
-The startup scripts are fully integrated into the AzerothCore dashboard:
+The startup scripts are fully integrated into the `acore.sh` dashboard:
 
 ### Direct Commands
 
